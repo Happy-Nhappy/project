@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>session tracking</title>
+</head>
+<body onload="checkSession">
+    <div class="container" id="session-tracking.html">
+
+   
+    <h1 id="welcome"></h1>
+    <button onclick="storeUserName('HAPPY N')">Login</button>
+
+    </div>
+
+
+
+    <script>
+        function storeUserName(username){
+            localStorage.setItem('username',username);
+        }
+
+        function getUserName(){
+           return localStorage.getItem('username');
+        }
+
+        function checkSession(){
+            const username = getUserName();
+            if(username){
+                document.getElementById('welcome').textContent = 'welcome back',+username+'!';
+            }else{
+                document.getElementById('welcome').textContent = 'please login.';
+            }
+        }
+        console.log('welcome')
+    </script>
+</body>
+</html>

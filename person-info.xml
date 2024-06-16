@@ -1,0 +1,26 @@
+<customers>
+    <customer>
+    <id>1</id>
+    <name>NYAGORME HAPPYl</name>
+    <gender>Femaleale</gender>
+    <phone>0512345678</phone>
+    <email>someone.12@icloud.com</email>
+    <address>T 11</address>
+    </customer>
+    <customer>
+    <id>1</id>
+    <name>NYAGORME HAPPYl</name>
+    <gender>Female</gender>
+    <phone>0512345678</phone>
+    <email>omeone.12@icloud.com</email>
+    <address>T Town 11</address>
+    </customer>
+    <customer>
+    <id>1</id>
+    <name>NYAGORME HAPPYl</name>
+    <gender>Femaleale</gender>
+    <phone>0512345678</phone>
+    <email>meone.12@icloud.com</email>
+    <address>T 11</address>
+    </customer>
+</customers>
